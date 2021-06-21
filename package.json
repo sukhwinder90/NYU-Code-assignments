@@ -1,0 +1,23 @@
+{
+  "name": "nyusukhwinder",
+  "version": "1.0.0",
+  "description": "NodeJS to convert XML to CSV and JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "xml"
+  ],
+  "author": "Sukhwinder",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "fast-xml-parser": "^3.19.0",
+    "he": "^1.2.0"
+  }
+}
